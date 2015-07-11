@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<head>
+<link href="normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      color: white;
+    }
+    h1 {
+      font-family: Lobster, Monospace;
+      font-size: 50px;
+      background: rgba(0,0,0,.8);
+      padding: 10px;
+      margin-bottom: 50px;
+
+    }
+    body {
+      text-align: center;
+      background-image: url("http://i.imgur.com/2r9qoz8.jpg");
+      
+      background-repeat: no-repeat;
+      background-position: center;
+      color: white;
+      font-family: verdana;
+    }
+
+    b {
+      font-family: verdana;
+      font-size: 20px;
+      background: rgba(0,0,0,.8);
+      padding:5px;
+      color: white;
+     /* padding: 10px;
+      margin-left: 35px;
+      margin-right: 35px;
+      margin-top: 100px;
+      margin-bottom: 100px; */  
+
+    }
+    .thick-black-border {
+      border-color: black;
+      border-width: 2px;
+      border-style: solid;
+
+    }
+
+    .gray-background {
+      background-color: rgba(0,0,0,.35);
+
+    }
+
+    p {
+      font-family: verdana;
+      float:left; 
+      display:inline; 
+      width: 60%;
+      font-size: 15px;
+      background: rgba(0,0,0);
+      color: white;
+
+    }
+
+    form {
+      float:left; 
+      display:inline; 
+      font-size: 15px;
+      background: rgba(0,0,0);
+      color: white;
+    }
+
+    li {
+      display: inline;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+ 
+    input[type="submit"] {
+      background: blue;
+      color: white;
+    }
+
+
+    @media (max-width: 50px){
+      p {
+        font-size: 30px;
+        padding: 5px;
+      }
+    }
+
+    button {
+      font-family: verdana;
+      font-size: 30px;
+      background-color: blue;
+      color: white;
+      padding: 10px;
+
+    }
+
+    .input-logo{
+      float: right;
+    }
+  </style>
+  <title>Golf Sweepstakes</title>
+</head>
+<body>
+  <header>
+  <h1><font color="LightGreen">Golf Club Sweepstakes Giveaway!</font></h1>
+
+    <b><font color="LightGreen">Enter for your chance to win this brand new set of Callaway golf clubs!</font><br></b>
+
+  <div>
+      <div>
+        <p href="http://imgur.com/d0ISdha"/>
+
+            <img class='thick-black-border' src="http://i.imgur.com/d0ISdha.jpg" title="Brand New Callaway Clubs" height="250" width="250" border="20" border-color="black"><br>  
+
+           <b><font color="LightGreen">Callaway Clubs</font></b>
+           </p>
+            
+        
+     </div>
+  
+      
+      <div>
+        <br>
+       <form name = "EnterToWin" action="formsubmit.html">
+
+          <input name="FirstName" placeholder="First Name" type="text" align="RIGHT" required="YES" class='thick-black-border' ><br>
+
+          <input name="LastName" placeholder="Last Name" type="text" align="RIGHT" required="YES" class='thick-black-border' ><br>
+          
+          <input name="Email" placeholder="Email" type="email"align="RIGHT" required="YES" class='thick-black-border' ><br>
+          
+          <input name="PhoneNumber" placeholder="Phone Number" align="RIGHT" required="YES" class='thick-black-border'><br>
+          
+          <input name="DateOfBirth" placeholder="Date of Birth" align="RIGHT" required="YES" class='thick-black-border'><br>
+          
+          <button class='thick-black-border'>Enter to Win!</button><br>
+       </form>
+      </div>
+</div>
+
+  </header>
+</body>
